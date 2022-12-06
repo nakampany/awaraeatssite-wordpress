@@ -1,0 +1,53 @@
+
+
+@media screen and (max-width:768px) {
+    html{
+        width: 100%;
+    }
+    body{
+        /* 全体のフォントカラー */
+        color: #000;;
+    }
+
+
+
+    .header-logo{
+        font-size: 2rem;
+        padding-right: 50px;
+    }
+    .header-nav{
+        display: none;
+    }
+
+    .site-title-sub::after,
+    .site-title-sub::before{
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .site-title-sub{
+        font-size: 1.7rem;
+    }
+
+    .contact .contact-form .name{
+        width: 200px;
+        height: 30px;
+    }
+    .contact .contact-form .email{
+        width: 240px;
+        height: 30px;
+    }
+    .contact .contact-from .tel{
+        width: 240px;
+        height: 30px;
+    }
+    .contact .contact-form .type{
+        width: 240px;
+        height: 30px;
+    }
+    .contact .contact-form .message{
+        width: 200px;
+        height: 150px;
+    }
+
+}
